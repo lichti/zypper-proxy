@@ -1,8 +1,8 @@
 zypper-proxy
 ============
 
-Remove proxy
-zypper-proxy.sh del
+Remove proxy:
+ zypper-proxy.sh del
 
-Add proxy
-zypper-proxy.sh add address:port
+Add proxy:
+ zypper-proxy.sh add address:port
