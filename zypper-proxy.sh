@@ -11,7 +11,7 @@ if [ "$1" = 'add' ]; then
 			fi
 		done
 	else
-		echo "use: $0 add 0.0.0.0"
+		echo "use: $0 add address:port"
 	fi
 elif [ "$1" = 'del' ]; then
 	for FILE in /etc/zypp/repos.d/*
