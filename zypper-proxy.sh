@@ -21,5 +21,6 @@ elif [ "$1" = 'del' ]; then
 		fi
 	done
 else
-	echo "use: $0 add 0.0.0.0"
+	echo "use: $0 add address:port"
+	echo "use: $0 del"
 fi
